@@ -1,0 +1,9 @@
+.card-section{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    height: 100%;
+    grid-auto-flow: row;
+}
