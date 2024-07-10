@@ -1,5 +1,9 @@
 import './header.css'
+// import Quote from '../Components/Quote/quote';
+import { Link } from 'react-router-dom';
+
 function Header(){
+
     return(
         <div className="header-container">
             <div className="header__logo">
@@ -8,15 +12,15 @@ function Header(){
                     <span>GeekFoods</span>
                 </a>
             </div>
-            <div className="header__links">
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Quote</a></li>
-                    <li><a href="">Resturants</a></li>
-                    <li><a href="">Foods</a></li>
-                    <li><a href="">Contact</a></li>
-                </ul>
-            </div>
+                <div className="header__links">
+                    <ul>
+                        <li><Link to="">Home</Link></li>
+                        <li><Link to="/quote">Quote</Link></li>
+                        <li><Link to="/restaurant">Resturants</Link></li>
+                        <li><Link to="/food">Foods</Link></li>
+                        <li><Link to="/contact">Contact</Link></li>
+                    </ul>
+                </div>
             <div className="header__btn">
                 <button>Get Started</button>
                 <i></i>
