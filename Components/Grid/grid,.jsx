@@ -1,5 +1,5 @@
 import './grid.css'
-import Card from '../../GridCard/gridcard';
+import Card from '../GridCard/gridcard';
 
 export default function Grid() {
   return (

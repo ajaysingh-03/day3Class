@@ -14,11 +14,11 @@ function Header(){
             </div>
                 <div className="header__links">
                     <ul>
-                        <li><Link to="">Home</Link></li>
-                        <li><Link to="/quote">Quote</Link></li>
-                        <li><Link to="/restaurant">Resturants</Link></li>
-                        <li><Link to="/food">Foods</Link></li>
-                        <li><Link to="/contact">Contact</Link></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Quote</a></li>
+                        <li><a href="#">Resturants</a></li>
+                        <li><a href="#">Foods</a></li>
+                        <li><a href="#">Contact</a></li>
                     </ul>
                 </div>
             <div className="header__btn">

@@ -7,11 +7,12 @@
     height: 100%;
     margin: auto ;
     display: flex;
+    /* background-color: magenta; */
     /* background-color: black; */
     /* flex-direction: row; */
 }
 .left-container{
-    width: 40%;
+    /* width: 40%; */
     height: 100%;
     /* background-color: magenta; */
     display: flex;
